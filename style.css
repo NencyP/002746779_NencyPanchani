@@ -1,0 +1,37 @@
+body {
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+  background-image: linear-gradient(rgba(216, 207, 215, 0.75),rgba(211, 212, 192, 0.75)),url(./Image/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  font: 1em sans-serif;
+  font-size: 10px;
+  color: black;
+}
+
+.logo {
+    height: 8rem;
+    width: 8rem;
+    cursor: pointer;
+  }
+
+.div_main{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+
+}
+.createButton {
+    margin-top: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #3372a5;
+    color: #fff;
+    font-size: 1rem;
+  }
