@@ -1,0 +1,32 @@
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+.socialMediaIcons ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.socialMediaIcons ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.socialMediaIcons ul li img {
+  width: 50px;
+  border-radius: 70%;
+}
+
+.socialMediaIcons{
+	text-align: center;
+}
+
+input[type=checkbox]:checked~#email {
+  display: block;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
