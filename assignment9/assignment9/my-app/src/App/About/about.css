@@ -1,0 +1,46 @@
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: beige;
+  }
+  
+  .about h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .about p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .customer-section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .customer-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .customer-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .customer-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
